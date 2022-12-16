@@ -22,12 +22,16 @@ def summa(per_chisl, vtor_chisl, znac):
 
 try:
     global pervoe_chislo, vtoroe_chislo
-    pervoe_chislo = int(input('Введите первое число: '))
-    vtoroe_chislo = int(input('Введите второе число: '))
-    znak = input('Введите знак: ')
+    while True:
+        spros = input('Начать работу калькулятора?').lower()
+        if spros == 'нет':
+            break
+        pervoe_chislo = int(input('Введите первое число: '))
+        vtoroe_chislo = int(input('Введите второе число: '))
+        znak = input('Введите знак: ')
 
-    funk = summa(pervoe_chislo, vtoroe_chislo, znak)
-    print(funk)
+        funk = summa(pervoe_chislo, vtoroe_chislo, znak)
+        print(funk)
 except (ValueError):
     print('Вы ввели буквы, а не цифры!')
 except (SystemError):
