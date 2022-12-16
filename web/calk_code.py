@@ -23,8 +23,8 @@ def summa(per_chisl, vtor_chisl, znac):
 try:
     global pervoe_chislo, vtoroe_chislo
     while True:
-        spros = input('Начать работу калькулятора?').lower()
-        if spros == 'нет':
+        vopros = input('Начать работу калькулятора?').lower()
+        if vopros == 'нет':
             break
         pervoe_chislo = int(input('Введите первое число: '))
         vtoroe_chislo = int(input('Введите второе число: '))
