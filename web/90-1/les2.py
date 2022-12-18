@@ -29,10 +29,10 @@
 # else:
 #     print('Такого знака в этом калькуляторе нет!')
 
-a = (input(""))
-b = (input(""))
-c = (input(""))
-if (a == "красный" and b == "желтый" and c == "зеленый") or (a == '3' and b == '2' and c == '1'):
-    print("ПОЕХАЛИ")
-else:
-    print("СТОИ")
+# a = (input(""))
+# b = (input(""))
+# c = (input(""))
+# if (a == "красный" and b == "желтый" and c == "зеленый") or (a == '3' and b == '2' and c == '1'):
+#     print("ПОЕХАЛИ")
+# else:
+#     print("СТОИ")
