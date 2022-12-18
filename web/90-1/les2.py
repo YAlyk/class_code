@@ -36,3 +36,21 @@
 #     print("ПОЕХАЛИ")
 # else:
 #     print("СТОИ")
+
+# i = 10
+# print('Запуск ракеты!')
+# while i >= 0:
+#     print('До запуска осталось:', i)
+#     i -= 1
+# print('Поехали')
+
+#             start stop step
+# for i in range(10, -1, -1):
+#     print(i)
+
+
+# a = 'привет'
+# print(a[::-1])
+# a = 'привет'
+# print(a[0:4:1])
+
