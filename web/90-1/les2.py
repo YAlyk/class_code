@@ -11,3 +11,20 @@
 #     if b == 'учёба' and a == 'плохо':
 #         print('Сочувствую')
 
+per_chislo = int(input('Введите первое число: '))
+vtor_chislo = int(input('Введите второе число: '))
+znak = input('Введите знак: ')
+
+if znak == '+':
+    print(per_chislo+vtor_chislo)
+elif znak == '-':
+    print(per_chislo-vtor_chislo)
+elif znak == '*':
+    print(per_chislo*vtor_chislo)
+elif znak == '/':
+    if vtor_chislo == 0:
+        print('Делить на 0 нельзя!')
+    else:
+        print(per_chislo/vtor_chislo)
+else:
+    print('Такого знака в этом калькуляторе нет!')
