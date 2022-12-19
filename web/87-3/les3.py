@@ -18,3 +18,6 @@
 
 # a = bool(0) # a = False
 # print(a)
+
+a =input('Введите оценки: ').split()
+print(sum(map(int,a)))
