@@ -47,6 +47,6 @@
 #     summa +=i
 # print(summa)
 
-a = 'привет'
-b = 'пока'
-print(a + ' ' + b)
+# a = 'привет'
+# b = 'пока'
+# print(a + ' ' + b)
