@@ -4,7 +4,7 @@
 # print('моё любимое число', 23)
 
 
-vivod = 23
+# vivod = 23
 # print(vivod)
 
 # vivod = "."
