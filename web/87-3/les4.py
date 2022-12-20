@@ -9,3 +9,11 @@ my_series = pd.Series([12, -4, 7, 9], ['a', 'b', 'c', 'd'])
 # print(my_series[['a', 'd']])
 # my_series['a'] = 50
 # print(my_series)
+
+fio = ['Кокшаров Андрей Сергеевич']
+age = [20]
+
+df = pd.DataFrame({'ФИО': fio, 'Возраст': age})
+print(df)
+df.to_csv(r'C:/Users/koksh/Desktop/pyton/code/web/87-3/test.csv')
+# df.to_excel('TestExcel.xlsx')
