@@ -38,6 +38,6 @@
 #       '\t', 'Средняя оценка за второе полугодие:', sr_two)
 
 
-a = input().split()
-for i in a:
-    print('*' * int(i))
+# a = input().split()
+# for i in a:
+#     print('*' * int(i))
