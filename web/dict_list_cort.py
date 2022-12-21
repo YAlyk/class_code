@@ -1,8 +1,8 @@
 # словарик
 # варианты объявления через фигурные скобки и через функцию dict{}
-mydict = {'j': "1", 'f': "2", 'm': "3"}
-print(mydict)
-# mydict = dict{}
+# mydict = {'j': "1", 'f': "2", 'm': "3"}
+# print(mydict)
+# mydict.
 
 # вывод значения по ключу
 # z = mydict['m']
@@ -97,7 +97,7 @@ print(mydict)
 # преобразование в строку
 # game_name = ('Bob', ' ', 'liked', ' ', 'played', ' ', 'comp', ' ', 'games')
 # print(type(game_name))
-# game_name = ' '.join(game_name)
+# game_name = ''.join(game_name)
 # print(type(game_name))
 # print(game_name)
 
