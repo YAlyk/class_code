@@ -47,3 +47,35 @@
 #     otvet = input('Хотите ли продолжить?').lower()
 #     if otvet == 'выйти':
 #         break
+
+# def slojenie(a, b):
+#     c = a + b
+#     return c
+
+# a = int(input('Введите первое число: '))
+# b = int(input('Введите второе число: '))
+# d = slojenie(a, b)
+# print(d * 2)
+
+# задание 1
+# def sum_range(start,end):
+#     summa = 0
+#     if start>end:
+#         for i in range(end, start+1):
+#             summa+=i
+#     else:
+#         for i in range(start, end+1):
+#             summa += i
+#     return summa
+
+# start = int(input())
+# end = int(input())
+# print(sum_range(start, end))
+
+# a = []
+# a.append(5)
+# print(a)
+
+
+# a = ()
+# a.
