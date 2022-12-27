@@ -58,9 +58,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-import matplotlib.pyplot as plt
-import numpy as np
-
 # fruits = ['apple', 'peach', 'orange', 'bannana', 'melon']
 # counts = [34, 25, 43, 31, 17]
 # # функция bar отвечает за построение стобчатых диаграмм
@@ -70,10 +67,11 @@ import numpy as np
 # plt.ylabel('значения')
 # plt.grid(True)
 # отрисовка окна
-x = [1, 5, 10, 15, 20]
-y1 = [1, 7, 3, 5, 11]
-y2 = [4, 3, 1, 8, 12]
-plt.plot(x, y1, 'o-r', label='line 1')
-plt.plot(x, y2, 'o-.g', label='line 2')
-plt.legend()
-plt.show()
+# x = [1, 5, 10, 15, 20]
+# y1 = [1, 7, 3, 5, 11]
+# y2 = [4, 3, 1, 8, 12]
+# plt.plot(x, y1, 'o-r', label='line 1')
+# plt.plot(x, y2, 'o-.g', label='line 2')
+# plt.legend()
+# plt.show()
+
