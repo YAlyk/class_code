@@ -39,3 +39,11 @@
 #     summa+=i
 #     i+=1
 # print(summa)
+
+#задание 3 
+# while True:
+#     a = int(input())
+#     print(a**2)
+#     otvet = input('Хотите ли продолжить?').lower()
+#     if otvet == 'выйти':
+#         break
