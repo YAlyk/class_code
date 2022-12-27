@@ -30,3 +30,12 @@
 # for i in range(0, n+1, 1):
 #     summa+=i
 # print(summa)
+
+#задание 2 второй вариант
+# i = 0
+# n = int(input('введите чило: '))
+# summa = 0
+# while i <=n:
+#     summa+=i
+#     i+=1
+# print(summa)
