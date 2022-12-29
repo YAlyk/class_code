@@ -17,11 +17,14 @@ flights_data = sns.load_dataset('flights')
 # plt.show()
 
 
-drinks_df = pd.read_csv('web/103-2/drinks.csv')
-sns.barplot(x='country', y='beer_servings', data = drinks_df)
-sns.set_style('darkgrid')
-sns.lineplot(data=flights_data, x='year', y='passengers')
+# drinks_df = pd.read_csv('web/103-2/drinks.csv')
+# sns.barplot(x='country', y='beer_servings', data = drinks_df)
+# sns.set_style('darkgrid')
+# sns.lineplot(data=flights_data, x='year', y='passengers')
 
-sns.set_style('whitegrid')
-sns.lineplot(data=flights_data, x='year', y='passengers')
+# sns.set_style('whitegrid')
+# sns.lineplot(data=flights_data, x='year', y='passengers')
+
+tips_df = sns.load_dataset('tips')
+print(tips_df.head())
 plt.show()
