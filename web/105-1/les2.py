@@ -14,3 +14,17 @@
 # # df.to_csv('coutry.csv', sep=',')
 # print(df)
 
+
+n = int(input())
+
+
+def F_2(n):
+ F_2 = []
+ for x in range(1, n+1):
+   if x % 2 == 0:
+    F = 2 * x
+    F_2.append(F)
+    return F_2
+
+
+print(F_2(n))
