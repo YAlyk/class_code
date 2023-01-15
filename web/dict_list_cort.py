@@ -76,7 +76,7 @@
 # print("кортеж: ", cort)
 # x = cort
 # x = sorted(x)
-# print("пример сорировки кортежа", x)
+# print("пример сортировки кортежа", x)
 # cort1 = tuple("hello world this cort")
 # print(cort1)
 # # нумерация в кортежах с нуля
