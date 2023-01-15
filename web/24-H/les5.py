@@ -20,7 +20,36 @@
 
 # a = (1, 5, 9, -5, 55)
 
-from collections import namedtuple
-marks = namedtuple('Marks', 'Physics Math Eng')
-marks = marks(Physics=5, Math=4, Eng=5)
-print(marks.Eng)
+# from collections import namedtuple
+# marks = namedtuple('Marks', 'Physics Math Eng')
+# marks = marks(Physics=5, Math=4, Eng=5)
+# print(marks)
+# print(marks.Math)
+
+# a = input().split(',')
+# print(a)
+# print(len(a))
+
+# a = input().split()
+# per_pol = a[:len(a)//2]
+# vtor_pol = a[len(a)//2:]
+# sr_per = sum(map(int, per_pol)) / len(per_pol)
+# sr_vtor = sum(map(int, vtor_pol)) / len(vtor_pol)
+# print('первое полугодие ср: ',  sr_per,
+#       '\nвторое полугодие ср:', sr_vtor)
+
+# a = input().split()
+# for i in a:
+#     print('*' * int(i))
+
+a = {2, 8, 555, 9, 10, 2, 6 }
+b = {'aplle', 'orange', 'mandarin', 'aplle'}
+c = {'aplle', 'google', 'facebook'}
+# a.update(b)
+# print(b | c)
+# print(b & c)
+# print(b - c)
+# print(b ^ c)
+# def test():
+#     pass
+# print(test)
