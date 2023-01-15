@@ -115,10 +115,10 @@
 
 
 # именованные кортежи. в них можно присваивать значениям кортежа определённые индексы и к ним обращаться
-# from collections import namedtuple #сначала нужно импортировать namedtuple, чтобы работать с этим
-# citizen = namedtuple("Citizen", "name", "age", "status")
-# Alex = citizen(name='Alex Merc', age=27, status='show businessman')
+from collections import namedtuple #сначала нужно импортировать namedtuple, чтобы работать с этим
+citizen = namedtuple("Citizen", "name age status")
+Alex = citizen(name='Alex Merc', age=27, status='show businessman')
 # print(Alex.name, Alex.age, Alex.status)
-# print(Alex.name)
-# print(Alex.age)
-# print(Alex.status)
+print(Alex.name)
+print(Alex.age)
+print(Alex.status)
