@@ -38,12 +38,51 @@
 # ax.set(facecolor = 'red')
 # plt.show()
 
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# flg = plt.figure()
+# ax = flg.add_subplot(111)
+
+# flg.set_facecolor('blue')
+# ax.set(facecolor='red')
+# plt.show()
+
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# fig = plt.figure()
+# ax = fig.add_subplot(111)
+# ax.set_title('Основы анатомии matplotlib', color='white', size=20)
+# fig.set_facecolor('green')
+# ax.set_facecolor('gray')
+# ax.set_xlim([-10, 10])
+# ax.set_ylim([-2, 2])
+# # ax.set_title('Основное название графика')
+# ax.set_xlabel('ось абсцис (XAxis)')
+# ax.set_ylabel('ось ординат (YAxis)')
+# plt.show()
+
+
+# import matplotlib.pyplot as plt
+
+# fig = plt.figure()
+# ax = fig.add_subplot(111)
+
+# fig.set(facecolor='green')
+# ax.set(facecolor='red',
+#        xlim=[-10, 10],
+#        ylim=[-2, 2],
+#        title='Основы анатомии matplotlib',
+#        xlabel='ось абцис (XAxis)',
+#        ylabel='ось ординат (YAxis)')
+
+# plt.show()
+
+
 import matplotlib.pyplot as plt
-import numpy as np
-
-flg = plt.figure()
-ax = flg.add_subplot(111)
-
-flg.set_facecolor('blue')
-ax.set(facecolor='red')
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.plot([0,1,2,3,4],[0,6,7,15,19])
+ax.scatter([0,1,2,3,4], [1,3,8,12,27])
 plt.show()
