@@ -4,6 +4,7 @@ mydict = {'j': "1", 'f': "2", 'm': "3"}
 # print(mydict)
 # mydict.
 
+
 # вывод значения по ключу
 # z = mydict['m']
 # print(z)

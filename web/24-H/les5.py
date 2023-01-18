@@ -1,9 +1,9 @@
 # a = 'hello world!'
 # print(a[0])
 # print(a[-5])
-#   start stop step | пример среза
+# #  start stop step | пример среза
 # print(a[0:5:])
-# задание: вывести строку 'hello, world!'
+# # задание: вывести строку 'hello, world!'
 # print(a[:5:]+','+a[5:12:])
 
 # a = [1, 8, 6, -5, 6, 8, 6]
@@ -26,7 +26,7 @@
 # print(marks)
 # print(marks.Math)
 
-# a = input().split(',')
+# a = input().split()
 # print(a)
 # print(len(a))
 
@@ -42,9 +42,9 @@
 # for i in a:
 #     print('*' * int(i))
 
-a = {2, 8, 555, 9, 10, 2, 6 }
-b = {'aplle', 'orange', 'mandarin', 'aplle'}
-c = {'aplle', 'google', 'facebook'}
+# a = {2, 8, 555, 9, 10, 2, 6 }
+# b = {'aplle', 'orange', 'mandarin', 'aplle'}
+# c = {'aplle', 'google', 'facebook'}
 # a.update(b)
 # print(b | c)
 # print(b & c)
