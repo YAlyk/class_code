@@ -27,7 +27,7 @@
 #     print(list[122])  # IndexError
 #     print(10/0)  # ZeroDivisionError
 # except (NameError, IndexError, ZeroDivisionError):
-#     print('В коде ошибки: NameError, IndexError, ZeroDivisionError')eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+#     print('В коде ошибки: NameError, IndexError, ZeroDivisionError')
 
 
 import math
