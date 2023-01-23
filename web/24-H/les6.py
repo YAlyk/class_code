@@ -21,13 +21,13 @@
 # print(m)
 
 
-import matplotlib.pyplot as plt
-fig = plt.figure()
-ax = fig.add_subplot(111)
+# import matplotlib.pyplot as plt
+# fig = plt.figure()
+# ax = fig.add_subplot(111)
 
-# fig.set(facecolor = 'green')
-# ax.set(facecolor = 'red')
+# # fig.set(facecolor = 'green')
+# # ax.set(facecolor = 'red')
 
-fig.set_facecolor('green')
-ax.set_facecolor('gray')
-plt.show()
+# fig.set_facecolor('green')
+# ax.set_facecolor('gray')
+# plt.show()
