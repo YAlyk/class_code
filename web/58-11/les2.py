@@ -124,8 +124,10 @@
 # plt.show()
 
 
-import pandas as pd
-import numpy as np
-df = pd.read_csv("web/58-11/survey.csv")
-print(df.head())
-print(df.info())
+# import pandas as pd
+# import numpy as np
+# df = pd.read_csv("web/58-11/survey.csv")
+# print(df.head())
+# print(df.info())
+
+
