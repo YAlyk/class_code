@@ -1,5 +1,5 @@
-a = [4, 5, 5, 3, 5, 468]
-b = [' ', 't' ]
+# a = [4, 5, 5, 3, 5, 468]
+# b = [' ', 't' ]
 # print(a)
 # # a.append(b)
 # # print(a)
@@ -20,10 +20,10 @@ b = [' ', 't' ]
 # # a = tuple()
 # print(a)
 
-a = input().split()
-map(int, a)
-d = max(a)
-print('#'*(int(d)+2))
-for i in a:
-    print('#'+'*'*int(i) + (' '*(int(d) - int(i))+'#'))
-print('#'*(int(d)+2))
+# a = input().split()
+# map(int, a)
+# d = max(a)
+# print('#'*(int(d)+2))
+# for i in a:
+#     print('#'+'*'*int(i) + (' '*(int(d) - int(i))+'#'))
+# print('#'*(int(d)+2))

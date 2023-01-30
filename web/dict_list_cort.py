@@ -2,6 +2,7 @@
 # варианты объявления через фигурные скобки и через функцию dict{}
 mydict = {'j': "1", 'f': "2", 'm': "3"}
 # print(mydict)
+# print(mydict)
 # mydict.
 
 
@@ -20,7 +21,7 @@ mydict = {'j': "1", 'f': "2", 'm': "3"}
 #     print('такого ключа нет')
 
 # сортировка по ключу
-# what_dict = {'b': 5, 'a': 8, 'y': -9, 'l': 0, 'd': 3}
+what_dict = {'b': 5, 'a': 8, 'y': -9, 'l': 0, 'd': 3}
 # for key in sorted(what_dict):
 #     print(key)
 
