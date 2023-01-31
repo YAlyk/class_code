@@ -15,4 +15,4 @@ while otvet !=True:
         print('+')
         att += 1
     
-
+# изменение
