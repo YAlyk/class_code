@@ -27,28 +27,28 @@
 # c = int(input('Введите c: '))
 
 
-def quadratic_solve(a: float, b: float, c: float):
-    if c == 0 and a != 0:
-        return sorted([0, -b/a])
-    elif a == 0:
-        return [-c/b]
-    else:
-        d = b*b-4*a*c
-        if d == 0:
-            return [-b/(2*a)]
-        elif d > 0:
-            return sorted([(d**0.5)-b/(2*a), (-(d**0.5)-b)/(2*a)])
+# def quadratic_solve(a: float, b: float, c: float):
+#     if c == 0 and a != 0:
+#         return sorted([0, -b/a])
+#     elif a == 0:
+#         return [-c/b]
+#     else:
+#         d = b*b-4*a*c
+#         if d == 0:
+#             return [-b/(2*a)]
+#         elif d > 0:
+#             return sorted([(d**0.5)-b/(2*a), (-(d**0.5)-b)/(2*a)])
 
 
-def test():
-    tests = [[1, 1, -10]]
-    results = [-3.7015621187164243, 2.7015621187164243]
-    i = 1
-    for a in tests:
-        if quadratic_solve(a[0], a[1], a[2]) == results[i-1]:
-            print(f'Тест №{i} прошел успешно ')
-            i += 1
-        else:
-            print('Тест провален')
+# def test():
+#     tests = [[1, 1, -10]]
+#     results = [-3.7015621187164243, 2.7015621187164243]
+#     i = 1
+#     for a in tests:
+#         if quadratic_solve(a[0], a[1], a[2]) == results[i-1]:
+#             print(f'Тест №{i} прошел успешно ')
+#             i += 1
+#         else:
+#             print('Тест провален')
 
-test()
+# test()

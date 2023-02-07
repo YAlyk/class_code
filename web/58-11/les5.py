@@ -64,5 +64,5 @@ cur = conn.cursor()
 # cur.execute("""DELETE FROM site WHERE id_rubr=1; """)
 
 # cur.execute("""INSERT INTO site(id_user, id_rubr, url, title, msg) VALUES(1,3,'http://wwwadmin.ru', 'Название', 'Описание');""")
-
+cur.execute(""" SELECT * FROM site;""")
 conn.commit()
