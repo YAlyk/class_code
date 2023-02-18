@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background-color: #f8ffb7;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 48px;
+  padding: 10px 20px;
+  margin: 40px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+div {
+  width: 780px;
+  position: absolute;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 15%;
+}
+
+img.add1 {
+  position: fixed;
+  left: 0px;
+}
+
+img.add2 {
+  position: fixed;
+  right: 0px;
+}

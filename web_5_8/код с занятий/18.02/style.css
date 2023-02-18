@@ -1,0 +1,112 @@
+/* box-shadow  внешняя тень*/
+/* div {
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow: -10px -10px 5px -5px #888;
+} */
+
+/* внутренняя тень */
+/* div {
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow: inset 10px 10px 5px #888;
+} */
+
+/* наслаивание тени */
+/* div {
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow:
+        inset 10px 10px 5px #888,
+        inset -10px -10px 5px #888;
+} */
+/* div {
+    width: 300px;
+    height: 100px;
+    background-color: rgba(rgb(198, 41, 41), green, blue, alpha);
+    box-shadow:
+        0 0 10px 4px #FF6347,
+        0 0 10px 30px #FFDAB9,
+        30px 0 20px 30px #b0e0e6;
+} */
+
+/* Эффект прозрачности */
+/* body {
+    background: url(https://www.sololearn.com/images/bg2.jpg);
+}
+
+nav {
+    padding: 50px 0;
+    min-width: 500px;
+}
+
+nav ul {
+    background: linear-gradient(90deg,
+            rgba(255,
+                255,
+                255,
+                0)0%,
+            rgba(255,
+                255,
+                255,
+                0.2)25%,
+            rgba(255,
+                255,
+                255,
+                0)75%,
+            rgba(255,
+                255,
+                255,
+                0)100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+        inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    padding: 10px;
+    color: #FFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+} */
+
+/* Тень текста */
+/* h1 {
+    text-shadow: 5px 10px 2px #93968f,
+        -3px 6px 5px #58d1e3;
+} */
+
+
+/* Псевдоклассы */
+/* #parent p:first-child {
+    color: green;
+    text-decoration: underline;
+} */
+
+/* #parent p:last-child {
+    color: green;
+    text-decoration: underline;
+} */
+
+/* Псевдоэлементы */
+/* p::selection {
+    color: #589432;
+} */
+p::-o-selection {
+    background: #8bc34a;
+    color: #fff;
+}
+
+p::selection {
+    background: #89c348;
+    color: #589432;
+}

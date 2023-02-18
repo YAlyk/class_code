@@ -1,0 +1,43 @@
+/* .floating {
+    float: both;
+} */
+/* div {
+    width: 150px;
+    height: 150px;
+    background-color: lightskyblue;
+    float: left;
+    overflow: scroll;
+} */
+
+
+.blue {
+    z-index: 2;
+    position: relative;
+    background-color: blue;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+}
+
+.red {
+    z-index: 3;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+/* .blue {
+    z-index: 3;
+    position: relative;
+
+}
+
+.red {
+    z-index: 2;
+    position: relative;
+} */

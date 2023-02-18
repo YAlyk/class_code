@@ -1,0 +1,66 @@
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <script>
+        confirm('Хотите ли вы пройти тест?')
+        var name = prompt('Напишите сюда свое имя', name)
+        var tests = 'первый вопрос';
+        var test2 = 'второй вопрос';
+        var test3 = 'третий вопрос?';
+        var test4 = 'четвёртый вопрос';
+        var test5 = 'пятый вопрос';
+        var testResult = 0;
+
+        var answer1 = confirm(tests);
+        if (answer1 == true) {
+            alert('Молодец!!!');
+            testResult += 2;
+        } else {
+            alert('Неверно');
+        }
+
+        var answer2 = confirm(test2);
+        if (answer2 == true) {
+            alert('Неверно');
+        } else {
+            testResult += 2;
+            alert('Молодец !!!');
+        }
+
+        var answer3 = confirm(test3);
+        if (answer3 == true) {
+            alert('Верно,ты молодец!');
+            testResult += 2;
+        } else {
+            alert('Неверно');
+        }
+        var answer3 = confirm(test4);
+        if (answer3 == true) {
+            alert('Верно');
+            testResult += 3;
+        } else {
+            alert('Неверно');
+        }
+        var answer3 = confirm(test5);
+        if (answer3 == true) {
+            alert('Нет');
+        } else {
+            alert('Молодец')
+            testResult += 3;
+        }
+        alert(name + ' вы набрали ' + testResult + ' баллов');
+    </script>
+
+    Чтоби пройти повторно тест обновите страницу
+
+
+    <img src="https://cdn-st1.rtr-vesti.r..." alt="ТЕСТ">
+</body>
+
+</html>

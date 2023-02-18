@@ -1,0 +1,13 @@
+/* top, right, bottom, left */
+
+.m-1 {
+    color: white;
+    background-color: red;
+    margin: 10px;
+}
+
+.p-1 {
+    color: white;
+    background-color: rgb(0, 0, 255);
+    padding-top: 20px;
+}
