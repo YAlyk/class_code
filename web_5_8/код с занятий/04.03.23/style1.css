@@ -1,0 +1,33 @@
+/* word-wrap
+p {
+    width: 210px;
+    height: 100px;
+    border: 1px solid #000;
+    word-wrap: break-word;
+} */
+
+
+/* добавление шрифтов
+@font-face {
+    font-family: Delicious;
+    src: url('http://www.sololearn.com/uploads/fonts/Delicious-Roman.otf');
+}
+
+@font-face {
+    font-family: Delicious;
+    font-weight: bold;
+    src: url('http://www.sololearn.com/uploads/fonts/Delicious-Bold.otf');
+}
+
+p {
+    font-family: Delicious, sans-serif;
+} */
+
+body {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: #fff;
+    background: -webkit-linear-gradient(bottom, blue, green, white);
+}
