@@ -30,10 +30,14 @@ albums = [('Exodus', 'Andy Hunter', '7/9/2002', 'Sparrow Records', 'CD'),
 # cursor.executemany("INSERT INTO albums VALUES (?,?,?,?,?)", albums)
 # conn.commit()
 
-sql = """
-UPDATE albums
-SET artist = 'John Doe'
-WHERE artist = 'Andy Hunter'
-"""
+# sql = """
+# UPDATE albums
+# SET artist = 'John Doe'
+# WHERE artist = 'Andy Hunter'
+# """
+# cursor.execute(sql)
+# conn.commit()
+
+sql = "DELETE FROM albums WHERE artist = 'John Doe'"
 cursor.execute(sql)
 conn.commit()
