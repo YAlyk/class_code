@@ -1,0 +1,111 @@
+/* Радиальный градиент */
+/* div.first {
+    height: 150px;
+    width: 200px;
+    color: #fff;
+    background: -webkit-radial-gradient(green, yellow, blue);
+}
+
+div.second {
+    height: 150px;
+    width: 200px;
+    color: #fff;
+    background: -webkit-radial-gradient(circle, green, yellow, blue);
+} */
+
+/* div.first {
+    height: 150px;
+    width: 200px;
+    color: #fff;
+    background: -webkit-radial-gradient(top, green, yellow, blue);
+}
+
+div.second {
+    height: 150px;
+    width: 200px;
+    color: #fff;
+    background: -webkit-radial-gradient(circle, green 5%, yellow 15%, blue 60%);
+} */
+
+
+
+/* #background-size */
+/* div {
+    height: 150px;
+    width: 200px;
+    border: 1px solid #000;
+    background: url('http://www.sololearn.com/uploads/css_logo.png') no-repeat 50% 50%;
+    background-size: 100px 100px;
+} */
+
+/* 
+div {
+    height: 150px;
+    width: 200px;
+    border: 1px solid #000;
+    background: url('http://www.sololearn.com/uploads/css_logo.png') no-repeat 50% 50%;
+    background-size: cover;
+} */
+
+
+
+
+/* background-clip */
+/* div {
+    background-image: url('http://www.sololearn.com/uploads/css_logo.png');
+    background-clip: content-box;
+    border: 2px dotted black;
+    padding: 20px;
+} */
+
+/* #прозрачные рамки */
+/* div {
+    border: 20px solid rgba(0, 0, 0, 0.3);
+
+    -webkit-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-color: white;00
+div {
+    border: 20px solid rgba(0, 0, 0, 0.3);
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: white;
+}
+*/
+
+/* #множество фоновых изображений  */
+/* div {
+    width: 400px;
+    height: 300px;
+    background-image: url('http://www.sololearn.com/uploads/css_logo.png'), url('http://www.sololearn.com/uploads/better-code.jpg');
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+} */
+
+
+
+/* #прозрачность */
+#img1 {
+    opacity: 1;
+}
+
+#img2 {
+    opacity: 0.5;
+    /* #только для IE */
+    filter: alpha(opacity=0.5);
+}
+
+#img3 {
+    opacity: 0.25;
+}
