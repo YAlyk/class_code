@@ -1,0 +1,186 @@
+/* трансформация и переходы
+div {
+    width: 50px;
+    height: 50px;
+    background: #32cd32;
+    transition: width 3s;
+    -webkit-transition: width 3s;
+}
+
+
+div:hover {
+    width: 250px;
+} */
+
+/* div {
+    width: 50px;
+    height: 50px;
+    background: #32cd32;
+    transition: width 3s;
+    transition-timing-function: ease-in;
+
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: ease-in;
+}
+
+div:hover {
+    width: 250px;
+} */
+
+
+/* трансформация */
+/* div {
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: aqua;
+    transform: rotate(-10deg);
+} */
+
+/* div.positive {
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: aqua;
+    transform: rotate(10deg);
+}
+
+div.negative {
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: rgb(255, 0, 0);
+    transform: rotate(-10deg);
+} */
+
+/* div {
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: paleturquoise;
+    transform: rotate(10deg);
+    transform-origin: bottom center;
+} */
+
+/* div {
+    width: 260px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: paleturquoise;
+    transform-origin: bottom center;
+    transform: translate(100px, 200px);
+} */
+
+/* div {
+    padding: 50px;
+    position: absolute;
+    background-color: rgb(24, 106, 106);
+    transform: skew(30deg);
+} */
+
+/* div.first {
+    width: 200px;
+    height: 100px;
+    background-color: paleturquoise;
+    transform: scale(0.7, 0.7);
+    color: white;
+}
+
+div.second {
+    margin: 60px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(40, 186, 72);
+    transform: scale(1.5, 1.5) rotate(45deg);
+    color: white;
+} */
+
+
+/* анимации */
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+} */
+
+/* div {
+    animation: colorchange 3s ease-in 1s infinite reverse;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+}
+
+@keyframes colorchange {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: blue;
+    }
+} */
+
+/* div.X {
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: green;
+    transform: rotateX(150deg);
+}
+
+
+div.Y {
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: green;
+    transform: rotateY(150deg);
+}
+
+div.Z {
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: green;
+    transform: rotateZ(150deg);
+} */
+
+
+
+/* #mybox1 {
+    transform: translateX(29px) translateY(5em) translateZ(-13px); 
+    transform: translate3d(-20px, 4em, 10px);
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: aqua;
+} */
+
+
+div.empty-div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    perspective: 100px;
+
+}
+
+div.green-div {
+    padding: 60px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotateX(45deg);
+}
