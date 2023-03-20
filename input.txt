@@ -1,2 +1,3 @@
-a, b, c
-1, 2
+2, Sasha, Sidorov, 15, 210, 40
+3, Vera, Poradina, 30, 178, 70
+4, Sergey, Korolev, 44, 160, 120
