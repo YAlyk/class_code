@@ -1,0 +1,46 @@
+/* фильтр тень */
+/* img {
+    width: 130px;
+    height: 100px;
+}
+
+.dropshadow {
+    filter: drop-shadow(5px 9px 2px blue);
+    -webkit-filter: drop-shadow(5px 9px 2px blue);
+} */
+/* .dropshadow {
+    filter: invert(100%);
+} */
+
+/* .dropshadow {
+    filter: grayscale(100%);
+} */
+
+/* .dropshadow {
+    filter: sepia(100%);
+} */
+
+/* .dropshadow {
+    filter: saturate(2.5);
+} */
+
+/* .dropshadow {
+    filter: hue-rotate(180deg);
+} */
+
+/* .dropshadow {
+    filter: opacity(20%);
+} */
+
+/* .dropshadow {
+    filter: brightness(50%);
+    border-radius: 50%;
+} */
+
+/* .dropshadow {
+    filter: contrast(140%);
+} */
+
+.dropshadow {
+    filter: blur(5px);
+}
