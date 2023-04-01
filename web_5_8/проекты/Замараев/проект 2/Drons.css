@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    position: relative;
+    width: 600px;
+    left: 440px;
+    top: 26px;
+}
+
+.head{
+    color: white;
+    font-family: Florence, cursive;
+    font-size: xxx-large;
+}
+
+.emblem{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left: 135px;
+    top: -70px;
+    width: 201px;
+}
+
+.email{
+    color: white;
+    font-family: Florence, cursive;
+}
+
+.password{
+    background-color: rgb(84, 84, 84);
+    left: 1080px;
+    top: -200px;
+    width: 210px;
+    position: relative;
+    padding: 5px;
+}
+
+.hr{
+    position: relative;
+    background-color: black;
+    top: -180px
+}
+
+.ads{
+    position: fixed;
+    left: 50px;
+    width: 150px;
+    background-color: grey;
+    top: 250px;
+    height: 400px;
+}
+
+.table{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    left: 300px;
+    width: 780px;
+    height: 800px;
+    top: -70px;
+}
+
+.tr_1{
+    font-size: smaller;
+    color: rgb(0, 0, 0);
+    width: 192px;
+    height: 138px;
+    font-family: Florence, cursive;
+}
+
+.main{
+    width: 770px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    color: white;
+    height: 690px;
+}
+
+.inf{
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    right: -1150px;
+    top: -850px;
+}
+
+.information{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    font-family: Florence, cursive;
+}
+
+.send{
+    background-color: black;
+    position: relative;
+    width: 20px;
+    top: 830px;
+    left: 300px;
+    height: 10px;
+}
