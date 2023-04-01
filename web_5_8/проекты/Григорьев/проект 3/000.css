@@ -1,0 +1,97 @@
+/* Блок картинки */
+.rotate-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Изображение */
+.change-img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    perspective: 1000px;
+    border: 1px solid #d68360;
+    /* Рамка */
+}
+
+.change-img:hover .front-side-img {
+    transform: rotateY(180deg);
+}
+
+.change-img:hover .back-side-img {
+    transform: rotateY(360deg);
+}
+
+/* Стороны изображения */
+.front-side-img,
+.back-side-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    back-side-imgface-visibility: hidden;
+}
+
+.front-side-img img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+
+.back-side-img img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+    /* Отражаем изображение по горизонтали */
+}
+
+.back-side-img {
+    transform: rotateY(180deg);
+}
+
+div {
+    animation: colorchange 3s ease-in 1s infinite reverse;
+    background-color: #00ff88;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+@keyframes colorchange {
+    0% {
+        background-color: #fdff84;
+    }
+
+    50% {
+        background-color: #dc00e4;
+    }
+
+    100% {
+        background-color: #3de2ff;
+    }
+}
+
+
+
+div {
+    width: 150px;
+    height: 130px;
+    background: #c24646;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+}
+
+
+
+div:hover {
+    width: 500px;
+}
+

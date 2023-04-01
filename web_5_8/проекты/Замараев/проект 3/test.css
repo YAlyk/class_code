@@ -1,0 +1,400 @@
+div.header-contanier{
+    margin: 0px 166px;
+}
+
+img.logo{
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+div.header{
+    background-image: url(clocks.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
+div.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a.menu_a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Florence, cursive;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.35s linear;
+}
+
+a.menu_a:hover{
+    color: rgb(102, 102, 102);
+}
+
+div.cart{
+    position: relative;
+
+    border-right: 2px solid white;
+    padding-right: 10px;
+    height: 50px;
+}
+
+img.cart-img{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+a.num{
+    color: white;
+    text-decoration: none;
+    font-family: Florence, cursive;
+    font-weight: 700;
+    transition: color 0.35s linear;
+}
+
+a.num:hover{
+    color: rgb(102, 102, 102);
+}
+
+div.phone-holder{
+    display: flex;
+    align-items: center;
+}
+
+div.header-title{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Florence, cursive;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-top: 52px;
+}
+
+div.header-down{
+    position: relative;
+}
+
+div.header-subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+div.card-img{
+    display: flex;
+    justify-content: center;
+}
+
+div.card-title{
+    display: flex;
+    justify-content: center;
+}
+
+div.card-desc{
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+div.card{
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    background-color: #fff;
+    margin-top: -60px;
+    height: 149px;
+    transition: color 0.35s linear;
+}
+
+div.card:hover{
+    color: blue;
+    border: 3px solid blue;
+}
+
+div.card-img{
+    display: flex;
+    justify-content: center;
+}
+
+div.card-title{
+    display: flex;
+    justify-content: center;
+    font-family: Florence, cursive;
+}
+
+div.card-desc{
+    text-align: center;
+    font-family: Florence, cursive;
+}
+
+div.fix1{
+    position: relative;
+    width: 349px;
+    transition: color 0.35s linear;
+}
+
+div.fix1:hover{
+    color: blue;
+    border: 5px solid blue;
+}
+
+div.fix2{
+    position: relative;
+    left: 250px;
+    width: 349px;
+    top: -90px;
+}
+
+div.fix3{
+    position: relative;
+    left: 670px;
+    width: 349px;
+    top: -180px;
+}
+
+div.galery-card-1{
+    position: relative;
+    border: 2px solid black;
+    width: 220px;
+    height: 260px;
+    left: 30px;
+    top: -80px;
+}
+
+div.galery-card-1{
+    position: relative;
+    top: -400px;
+    width: 220px;
+}
+
+div.galery-title{
+    font-size: small;
+    font-family: Florence, cursive;
+    justify-content: center;
+    color: #fff;
+}
+
+hr.line{
+    border: 1px solid black;
+}
+
+div.line{
+    position: relative;
+    top: -120px;
+}
+
+div.galery-card-2{
+    position: relative;
+    width: 240px;
+    height: 230px;
+    left: 180px;
+    top: -590px;
+}
+
+div.galery-card-3{
+    position: relative;
+    width: 200px;
+    height: 180px;
+    left: 420px;
+    top: -850px;
+}
+
+div.galery-card-4{
+    position: relative;
+    width: 270px;
+    height: 320px;
+    left: 620px;
+    top: -1050px;
+}
+
+div.galery-card-5{
+    position: relative;
+    width: 230px;
+    height: 280px;
+    left: 900px;
+    top: -1350px;
+}
+
+div.galery-card-6{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    left: 1130px;
+    top: -1750px;
+}
+
+div.Galery{
+    height: 0px;
+}
+
+div.big-title{
+    font-size: xxx-large;
+    font-family: Florence, cursive;
+    color: #fff;
+}
+
+div.galery-card-7{
+    position: relative;
+    width: 530px;
+    height: 70px;
+    left: 550px;
+    top: -2150px;
+}
+
+div.cards-desk{
+    background-image: url(https://avatars.mds.yandex.net/i?id=b468a53f2cb540500c2a7917ce66e641daca9343-9040073-images-thumbs&n=13&exp=1);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+div.main_aukc{
+    background-color: #fff;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 1400px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    height: 400px;
+    overflow: scroll;
+}
+
+div.Aukc-1{
+    background-color: aliceblue;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 1300px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    height: 40px;
+    transition: color 0.35s linear;
+}
+
+div.Aukc-1:hover{
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+}
+
+a.Auks-title{
+    font-size: x-large;
+    font-family: Florence, cursive;
+    color: #000;
+    margin: 5px;
+    text-decoration: none;
+}
+
+div.Aukc-2{
+    background-color: aliceblue;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 1300px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    height: 40px;
+    transition: color 0.35s linear;
+}
+
+div.Aukc-2:hover{
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+}
+
+a.card-desc-1{
+    font-size: medium;
+    font-family: Florence, cursive;
+    color: #000;
+    margin: 5px;
+    text-decoration: none;
+}
+
+div.Aukc-3{
+    background-color: aliceblue;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 1300px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    height: 40px;
+    transition: color 0.35s linear;
+}
+
+div.Aukc-3:hover{
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+}
+
+div.Aukc-4{
+    background-color: aliceblue;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 1300px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    height: 40px;
+    transition: color 0.35s linear;
+}
+
+div.Aukc-4:hover{
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+}
+
+div.Aukc-5{
+    background-color: aliceblue;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 1300px;
+    position: relative;
+    top: 90px;
+    left: 50px;
+    height: 40px;
+    transition: color 0.35s linear;
+}
+
+div.Aukc-5:hover{
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+}
+
+div.Aukc-6{
+    background-color: aliceblue;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 1300px;
+    position: relative;
+    top: 110px;
+    left: 50px;
+    height: 40px;
+    transition: color 0.35s linear;
+}
+
+div.Aukc-6:hover{
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+}
+
+div.Aukc-7{
+    background-color: aliceblue;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 1300px;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    height: 40px;
+    transition: color 0.35s linear;
+}
+
+div.Aukc-7:hover{
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+}
