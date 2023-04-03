@@ -17,7 +17,7 @@ class Car:
     def wheel_type(self,season):# создание колес
         #print('созадние колес')
         #season= #input('Введите время года: \n>>> ')
-        if season=='Зима':
+        if season.lower()=='зима':
             self.wheel['Шипованные']=250
             self.price+=250
         else:
