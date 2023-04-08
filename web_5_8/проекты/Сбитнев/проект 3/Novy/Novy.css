@@ -1,0 +1,106 @@
+.verh{
+height: 25%;
+width: 100%;
+}
+.osnova{
+    height: 100%;
+    width: 100%;
+}
+.reklama1{
+    display: inline-block;
+    height: 100%;
+    width: 10.49%;
+}
+.kontent{
+    display: inline-block;
+    height: 100%;
+    width: 78.4%;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
+.reklama2{
+    display: inline-block;
+    height: 100%;
+    width: 10.49%;
+}
+.podval{
+    height: 25%;
+    width: 100%;
+}
+.logo{
+    display: inline-block;
+    height: 100%;
+    width: 12.3%;
+}
+.vv{
+    border-radius: 20%;
+}
+.vvv{
+    border-radius: 20%;
+}
+.infa{
+    display: inline-block;
+    height: 100%;
+    width: 69.3%;
+    position:relative;top:-25%;
+}
+.vk{
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    position:relative;left:30%;
+}
+.vktext{
+    position:relative;top:-30%;
+    font-size: 30;
+}
+.acaunt{
+    display: inline-block;
+    height: 100%;
+    width: 17.3%;
+    text-align: center;
+    font-size: 15;
+}
+@font-face {
+    font-family: sensei; /* Гарнитура шрифта */
+    src: url(sensei_medium.otf); /* Путь к файлу со шрифтом */
+}
+body {
+    color:white;
+    background-image: url(fom.jpg);
+    font-family: sensei;
+}
+input{
+    font-family: sensei;
+    color:gray;
+    font-size: 15;
+}
+.sabmeet{
+    height: 15%;
+    width: 30%;
+    text-align: center;
+}
+.tovar{
+    display: inline-block;
+    width: 15%;
+    height: 26%;
+    border: 1px;
+    margin: 2%;
+}
+.bordeer{
+    border:2.5px solid white;
+}
+.tov{
+    text-decoration: none;
+    color:white;
+    font-size: 18;
+}
+.pod{
+    position:relative;
+    left:40%;
+    top: 50%;
+    color:white;
+    font-size: 20;
+}
