@@ -1,0 +1,328 @@
+{
+    "IT": [
+        {
+            "name": "Alex",
+            "lastname": "Ivanov",
+            "age": 30,
+            "gpa": 2.9
+        },
+        {
+            "name": "Dima",
+            "lastname": "Alehin",
+            "age": 12,
+            "gpa": 2.1
+        },
+        {
+            "name": "Andrey",
+            "lastname": "Kotov",
+            "age": 12,
+            "gpa": 2.9
+        },
+        {
+            "name": "Lena",
+            "lastname": "Zhukova",
+            "age": 10,
+            "gpa": 2.7
+        },
+        {
+            "name": "Dima",
+            "lastname": "Korolev",
+            "age": 14,
+            "gpa": 3.5
+        },
+        {
+            "name": "Veronica",
+            "lastname": "Zhukova",
+            "age": 26,
+            "gpa": 3.8
+        },
+        {
+            "name": "Ivan",
+            "lastname": "Ivanov",
+            "age": 15,
+            "gpa": 3.0
+        }
+    ],
+    "3D": [
+        {
+            "name": "Nikolay",
+            "lastname": "Kiselev",
+            "age": 10,
+            "gpa": 4.1
+        },
+        {
+            "name": "Sveta",
+            "lastname": "Tretyakova",
+            "age": 22,
+            "gpa": 3.2
+        },
+        {
+            "name": "Inna",
+            "lastname": "Tretyakova",
+            "age": 15,
+            "gpa": 3.9
+        },
+        {
+            "name": "Inna",
+            "lastname": "Koroleva",
+            "age": 23,
+            "gpa": 3.8
+        },
+        {
+            "name": "Timur",
+            "lastname": "Kiselev",
+            "age": 13,
+            "gpa": 3.8
+        },
+        {
+            "name": "Timur",
+            "lastname": "Korolev",
+            "age": 15,
+            "gpa": 5.0
+        },
+        {
+            "name": "Olya",
+            "lastname": "Shukina",
+            "age": 11,
+            "gpa": 4.9
+        },
+        {
+            "name": "Lena",
+            "lastname": "Solovieva",
+            "age": 21,
+            "gpa": 4.8
+        }
+    ],
+    "ROBO": [
+        {
+            "name": "Veronica",
+            "lastname": "Shukina",
+            "age": 27,
+            "gpa": 2.4
+        },
+        {
+            "name": "Sasha",
+            "lastname": "Ivanov",
+            "age": 26,
+            "gpa": 3.2
+        },
+        {
+            "name": "Alex",
+            "lastname": "Tretyakov",
+            "age": 12,
+            "gpa": 4.0
+        },
+        {
+            "name": "Andrey",
+            "lastname": "Ivanov",
+            "age": 28,
+            "gpa": 3.2
+        },
+        {
+            "name": "Veronica",
+            "lastname": "Komarova",
+            "age": 13,
+            "gpa": 4.1
+        },
+        {
+            "name": "Sasha",
+            "lastname": "Kiselev",
+            "age": 10,
+            "gpa": 3.9
+        },
+        {
+            "name": "Sveta",
+            "lastname": "Komarova",
+            "age": 13,
+            "gpa": 4.0
+        },
+        {
+            "name": "Sasha",
+            "lastname": "Korolev",
+            "age": 13,
+            "gpa": 2.9
+        },
+        {
+            "name": "Timur",
+            "lastname": "Kotov",
+            "age": 24,
+            "gpa": 4.9
+        }
+    ],
+    "BIO": [
+        {
+            "name": "Timur",
+            "lastname": "Alehin",
+            "age": 30,
+            "gpa": 4.3
+        },
+        {
+            "name": "Andrey",
+            "lastname": "Kiselev",
+            "age": 24,
+            "gpa": 3.3
+        },
+        {
+            "name": "Nikolay",
+            "lastname": "Kotov",
+            "age": 23,
+            "gpa": 2.0
+        },
+        {
+            "name": "Inna",
+            "lastname": "Zhukova",
+            "age": 21,
+            "gpa": 3.6
+        },
+        {
+            "name": "Anya",
+            "lastname": "Solovieva",
+            "age": 16,
+            "gpa": 3.5
+        }
+    ],
+    "SOC": [
+        {
+            "name": "Vika",
+            "lastname": "Tretyakova",
+            "age": 17,
+            "gpa": 2.1
+        },
+        {
+            "name": "Olya",
+            "lastname": "Koroleva",
+            "age": 14,
+            "gpa": 3.5
+        },
+        {
+            "name": "Dima",
+            "lastname": "Zaicev",
+            "age": 14,
+            "gpa": 2.4
+        },
+        {
+            "name": "Vika",
+            "lastname": "Zhukova",
+            "age": 13,
+            "gpa": 3.7
+        },
+        {
+            "name": "Vika",
+            "lastname": "Pychkova",
+            "age": 26,
+            "gpa": 5.0
+        },
+        {
+            "name": "Vika",
+            "lastname": "Solovieva",
+            "age": 17,
+            "gpa": 3.4
+        },
+        {
+            "name": "Sveta",
+            "lastname": "Zhukova",
+            "age": 16,
+            "gpa": 3.0
+        }
+    ],
+    "MATH": [
+        {
+            "name": "Lena",
+            "lastname": "Shukina",
+            "age": 29,
+            "gpa": 4.7
+        },
+        {
+            "name": "Vika",
+            "lastname": "Koroleva",
+            "age": 10,
+            "gpa": 4.2
+        },
+        {
+            "name": "Alex",
+            "lastname": "Alehin",
+            "age": 24,
+            "gpa": 2.6
+        },
+        {
+            "name": "Dima",
+            "lastname": "Ivanov",
+            "age": 21,
+            "gpa": 4.7
+        },
+        {
+            "name": "Alex",
+            "lastname": "Kiselev",
+            "age": 13,
+            "gpa": 3.7
+        },
+        {
+            "name": "Veronica",
+            "lastname": "Koroleva",
+            "age": 13,
+            "gpa": 4.0
+        },
+        {
+            "name": "Anya",
+            "lastname": "Shukina",
+            "age": 21,
+            "gpa": 2.7
+        },
+        {
+            "name": "Anya",
+            "lastname": "Koroleva",
+            "age": 11,
+            "gpa": 4.3
+        },
+        {
+            "name": "Alex",
+            "lastname": "Zaicev",
+            "age": 10,
+            "gpa": 2.3
+        }
+    ],
+    "PYSH": [
+        {
+            "name": "Sveta",
+            "lastname": "Solovieva",
+            "age": 28,
+            "gpa": 3.7
+        },
+        {
+            "name": "Veronica",
+            "lastname": "Tretyakova",
+            "age": 28,
+            "gpa": 3.6
+        },
+        {
+            "name": "Anya",
+            "lastname": "Zhukova",
+            "age": 27,
+            "gpa": 3.8
+        },
+        {
+            "name": "Sveta",
+            "lastname": "Pychkova",
+            "age": 25,
+            "gpa": 4.6
+        },
+        {
+            "name": "Ivan",
+            "lastname": "Kotov",
+            "age": 25,
+            "gpa": 4.9
+        },
+        {
+            "name": "Veronica",
+            "lastname": "Pychkova",
+            "age": 19,
+            "gpa": 2.7
+        },
+        {
+            "name": "Nikolay",
+            "lastname": "Tretyakov",
+            "age": 13,
+            "gpa": 4.2
+        }
+    ]
+}

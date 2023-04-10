@@ -25,10 +25,11 @@
 # def increase(num):
 #     return num + 7
 
+
 # numbers = [1, 2, 3, 4, 5, 6]
 # new_numbers = map(increase, numbers)
 # for num in new_numbers:
-#     print(num, end=' ')
+#     print(num, end=', ', sep=' ')
 
 
 # def increase(num):
@@ -88,6 +89,8 @@
 # x, y = 25, 50
 # b = x if x < y else y
 # print(b)
+
+
 
 
 # def func(elem):
@@ -165,7 +168,6 @@ numbers = lambda a: type(a) in (int, float)
 """
 
 
-
 # import math
 # import statistics
 
@@ -198,11 +200,7 @@ numbers = lambda a: type(a) in (int, float)
 #     return any(map(lambda word: True if word in command else False, ignore))
 
 
-
-
 # print(all(map(lambda x: True if x.isdigit() and int(x) <=255 else False, input().split('.'))))
-
-
 
 
 """

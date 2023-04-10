@@ -74,9 +74,9 @@ def task_3(data: dict):
             if data['area'][i] == m:
                 print(data['name'][i], m)
 
-
+# C:/Users/koksh/Desktop/pyton/code/web/71-1/71-1-3/countries.csv
 data = read_csv(r'web\71-1\71-1-3\countries.csv')
-# print(data)
+print(data)
 print('первый вопрос:', task_1(data))
 print('второй вопрос:', task_2(data))
 print('третий вопрос:')

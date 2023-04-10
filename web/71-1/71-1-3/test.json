@@ -1,0 +1,18 @@
+{
+    "IT":
+    [
+        {
+            "name":"Anna",
+            "lastname":"Koroleva",
+            "age":15,
+            "gpa":4.3
+        },
+        {
+            "name":"Sergey",
+            "lastname":"Filatov",
+            "age":23,
+            "gpa":3.5
+        }
+    ]
+    
+}

@@ -1,7 +1,3 @@
-
-
-
-
 class Car:
 
     def __init__(self,karkas, name, style) -> None: # конструктор для начальных парметров машины
