@@ -61,8 +61,8 @@ def mode(data):
     return res
 
 
-print('ср знач:', mean(data))
-print('мода:', mode(data))
-print('медиана', median(data))
-print('размах:', raz(data))
-print('среднеквадратичное отклонение:', otk(data))
+print('ср знач:', mean(data_generate()))
+print('мода:', mode(data_generate()))
+print('медиана', median(data_generate()))
+print('размах:', raz(data_generate()))
+print('среднеквадратичное отклонение:', otk(data_generate()))
