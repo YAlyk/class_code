@@ -40,6 +40,7 @@ def rang(data):
     ma = max(data)
     return ma-mi
 
+
 # тернарная операция
 
 
