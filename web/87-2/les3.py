@@ -26,6 +26,22 @@ def get_data_from_file() -> tuple:
     return male_height, male_weight, female_height, female_weight
 
 
+def median(data: list) -> float:
+    data.sort()
+    if len(data) % 2 == 1:
+        return data[len(data)//2]
+    else:
+        return (data[len(data)//2] + data[len(data)//2 - 1]) / 2
+
+def kvartil_25(data:list)->float:
+    loc_data=sorted(data)
+    return median(loc_data[:len(loc_data)//2])
+
+
+def kvartil_75(data: list) -> float:
+    loc_data = sorted(data)
+    return median(loc_data[len(loc_data)//2+1:])
+
 def average_fu(data: list) -> float:
     return round(sum(data)/len(data), 3)
 
@@ -80,8 +96,15 @@ print('рост мужчины', percent_sigma(m_h))
 print('вес мужчины', percent_sigma(m_w))
 print('рост женщины', percent_sigma(f_h))
 print('вес женщины', percent_sigma(f_w))
-
-
+print('__________________________')
+print('Статистика по мужчинам. Два числа - сначала для роста, потом для веса')
+print('среднее значение', average_fu(m_h), average_fu(m_w))
+print('стандартное отклонение', sigma(m_h), sigma(m_w))
+print('минимальное значение', min(m_h), min(m_w))
+print('максимальное значение', max(m_h), max(m_w))
+print('первый квартиль', kvartil_25(m_h), kvartil_75(m_w))
+print('медиана', median(m_h), median(m_w))
+print('третий квартиль', kvartil_75(m_h), kvartil_75(m_w))
 fig, axes = plt.subplots(2, 2)
 x_m_h, y_m_h = data_to_bar(m_h)
 x_m_w, y_m_w = data_to_bar(m_w)
