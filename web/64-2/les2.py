@@ -10,8 +10,8 @@ from collections import Counter
 #     return data
 
 
-# def averge_fu(data):
-#     return round(sum(data)/len(data), 3)
+def averge_fu(data):
+    return round(sum(data)/len(data), 3)
 
 
 # def mode(data):
@@ -28,12 +28,12 @@ from collections import Counter
 #         return sum(sorted(data)[index-1:index+1]) / 2
 
 
-# def sigma(data):
-#     summa = 0
-#     av = averge_fu(data)
-#     for el in data:
-#         summa += (el-av)**2
-#     return round((summa/len(data)-1) ** 0.5, 3)
+def sigma(data):
+    summa = 0
+    av = averge_fu(data)
+    for el in data:
+        summa += (el-av)**2
+    return round((summa/len(data)-1) ** 0.5, 3)
 
 
 # def rang(data):
@@ -221,6 +221,24 @@ def data_to_bar(data: list) -> tuple:
     return x, y
 
 
+def percent_sigma(data):
+    sig = sigma(data)
+    av = average_fu(data)
+    cnt_1 = 0
+    cnt_2 = 0
+    cnt_3 = 0
+    n = len(data)
+    for el in data:
+        if abs(el-av) <= sig:  # |el| = abs(el)
+            cnt_1 += 1
+        if abs(el-av) <= 2 * sig:
+            cnt_2 += 1
+        if abs(el-av) <= 3 * sig:
+            cnt_3 += 1
+    return round(cnt_1/n*100, 3), round(cnt_2/n*100, 3), round(cnt_3/n*100, 3)
+
+
+
 fig, axes = plt.subplots(2, 2)
 
 m_h, m_w, f_h, f_w = get_data_from_file()
@@ -228,6 +246,12 @@ x_m_h, y_m_h = data_to_bar(m_h)
 x_m_w, y_m_w = data_to_bar(m_w)
 x_f_h, y_f_h = data_to_bar(f_h)
 x_f_w, y_f_w = data_to_bar(f_h)
+
+print('правило трёх сигм')
+print('рост мужчины', percent_sigma(m_h))
+print('вес мужчины', percent_sigma(m_w))
+print('рост женщины', percent_sigma(f_h))
+print('вес женщины', percent_sigma(f_w))
 
 
 axes[0, 0].bar(x_m_h, y_m_h, color='red')
