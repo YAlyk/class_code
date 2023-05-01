@@ -134,6 +134,14 @@ def average_fu(data: list) ->float:
     return round(sum(data)/len(data), 3)
 
 
+def median(data: list) -> float:
+    data.sort()
+    if len(data) % 2 == 1:
+        return data[len(data)//2]
+    else:
+        return (data[len(data)//2] + data[len(data)//2 - 1]) / 2
+
+
 inp = '2 1 3 4 2 4 2 5 3 2 6 1 0 7 2 1 3 2 6 6 6 6 6'  # можно добавить инпут
 data = list(map(int, inp.split()))
 
@@ -143,5 +151,6 @@ data_x_mode, data_y_mode = dict_to_list(mode(find_cnt(data)))
 plt.scatter(data_x, data_y)
 plt.scatter(data_x_mode, data_y_mode, color='red')
 plt.axvline(x = average_fu(data), color='orange')
+plt.axvline(x=median(data), color='green')
 # plt.axvline()
 plt.show()
