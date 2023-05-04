@@ -51,8 +51,10 @@ m_h, m_w, f_h, f_w = get_data_from_file()
 
 fig, axes = plt.subplots(1, 2)
 
-print('коэффициент корреляции для мужчин:', corr_coef(m_h,m_w))
+print('коэффициент корреляции для мужчин:', corr_coef(m_h, m_w))
 print('коэффициент корреляции для женщин:', corr_coef(f_h, f_w))
 # построить графики
 
+axes[0].scatter(m_w, m_h, color='blue')
+axes[1].scatter(f_w, f_h, color='red')
 plt.show()
