@@ -38,15 +38,21 @@ def sigma(data) -> int:
     return round((summa/(len(data)-1))**0.5, 3)
 
 
-def corr_coef():
-    # дописать функцию
-    pass
+def corr_coef(x, y):
+    x_mid = average_fu(x)
+    y_mid = average_fu(y)
+    chislo = 0
+    for i in range(len(x)):
+        chislo += (x[i]-x_mid) * (y[i]-y_mid)
+    return chislo / (sigma(x) * sigma(y) * (len(x)-1))
 
 
 m_h, m_w, f_h, f_w = get_data_from_file()
 
 fig, axes = plt.subplots(1, 2)
 
+print('коэффициент корреляции для мужчин:', corr_coef(m_h,m_w))
+print('коэффициент корреляции для женщин:', corr_coef(f_h, f_w))
 # построить графики
 
 plt.show()
